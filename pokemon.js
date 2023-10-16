@@ -66,9 +66,10 @@ function listOfMoves(stats) {
   let listofNames = [];
   for (let i = 0; i < stats.moves.length; i++) {
     if (i < stats.moves.length) {
-      listofNames.push(stats.moves[i].move.name);
+      listofNames.push(capitalizeWrds(stats.moves[i].move.name));
     }
   }
+  
   let stringedList = listofNames.toString();
   let spacedOutList = stringedList.replace(/,/g, ", ");
 
