@@ -15,13 +15,12 @@ body {
 
 }
 
-img {
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    transform: scale(0.5);
-    transform: translateX(-30px);
-    transform: translateY(-310px);
+    scale: 0.8;
+    transform: translateY(-350px);
 }
 
 .side-by-side {
@@ -49,7 +48,14 @@ img {
     float: right;
     width: 50%;
     text-align: center;
+    position: relative;
 }
+
+img {
+    scale: 3;
+    transform: translateY(50%);
+}
+
 
 footer {
     text-align: center;

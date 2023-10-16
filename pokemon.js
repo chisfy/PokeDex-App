@@ -5,7 +5,7 @@ async function getandDisplayPokemonData() {
   const userSearch = document.querySelector("#search-name").value;
   apiUrl = `https://pokeapi.co/api/v2/pokemon/${userSearch}`;
   const stats = await retrievePokemonData();
-  updatingText(stats);
+  await updatingText(stats);
 }
 
 //function get data from api
@@ -43,8 +43,8 @@ let pokeMoves = document.querySelector(".pokemon-moves");
 let pokeHealth = document.querySelector(".pokemon-health-stat");
 let pokeAttack = document.querySelector(".pokemon-attack-stat");
 let pokeSpecAttack = document.querySelector(".pokemon-special-attack-stat");
-let pokeImage = document.querySelector("#img-box-container");
-
+let pokeImage = document.getElementById("img-box-container");
+const imgElement = document.createElement("img");
 //function that actions what we do with the data
 function updatingText(stats) {
   let pokname = stats.name.toString();
@@ -60,6 +60,8 @@ function updatingText(stats) {
   pokeHealth.textContent = `Health:  ${stats.stats[0].base_stat} HP`;
   pokeAttack.textContent = `Attack:  ${stats.stats[1].base_stat} Damage`;
   pokeSpecAttack.textContent = `Special Attack:  ${stats.stats[3].base_stat} Damage`;
+  imgElement.src = stats.sprites["front_default"];
+  pokeImage.appendChild(imgElement);
 }
 
 //turn the moves into a list of string
