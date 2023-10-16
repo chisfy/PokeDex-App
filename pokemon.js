@@ -43,6 +43,7 @@ let pokeMoves = document.querySelector(".pokemon-moves");
 let pokeHealth = document.querySelector(".pokemon-health-stat");
 let pokeAttack = document.querySelector(".pokemon-attack-stat");
 let pokeSpecAttack = document.querySelector(".pokemon-special-attack-stat");
+let pokeImage = document.querySelector("#img-box-container");
 
 //function that actions what we do with the data
 function updatingText(stats) {
@@ -66,10 +67,10 @@ function listOfMoves(stats) {
   let listofNames = [];
   for (let i = 0; i < stats.moves.length; i++) {
     if (i < stats.moves.length) {
-      listofNames.push(capitalizeWrds(stats.moves[i].move.name));
+      listofNames.push(capitalizeWords(stats.moves[i].move.name));
     }
   }
-  
+
   let stringedList = listofNames.toString();
   let spacedOutList = stringedList.replace(/,/g, ", ");
 
@@ -78,7 +79,7 @@ function listOfMoves(stats) {
 
 //function to capitalize the word in the api
 function capitalizeWords(str) {
-  return str.toUpperCase() + str.slice(1).toLowerCase();
+  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
 }
 
 // function capitalize(str) {
