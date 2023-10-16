@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="nU9OUGFKT2mmSgLKAVPk" name="Page-1">
+        <mxGraphModel dx="882" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Plan:&lt;br&gt;&lt;br&gt;-create a functional web page that receives a user inputs and retrieves that data." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="40" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="user input:-&lt;br&gt;1) button = user clicks button and receives information about a pokemon&lt;br&gt;2)button = user clicks button and receives information about a random pokemon.&lt;br&gt;3) search bar, user types in name of specific pokemon and recieves information about that pokemon" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="40" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="310" width="670" height="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="data:&lt;br&gt;=image if it;s possible&lt;br&gt;- pokemon index number (id)&lt;br&gt;- name&lt;br&gt;-type name&lt;br&gt;- weight / 10 (kg)&lt;br&gt;- height : in cm&lt;br&gt;- moves&amp;nbsp;&lt;br&gt;- stats : base stat health&lt;br&gt;base stat attack&lt;br&gt;base stat special attack" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="40" width="180" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="webpage:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="520" width="310" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Title/Pokemon Logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="list of&amp;nbsp; p's" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="600" width="120" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="list of&amp;nbsp; p's" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="600" width="120" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="little text to explain how to use it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="530" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="user input: search box" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="560" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="basckground pokemon themed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="900" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
