@@ -8,32 +8,31 @@ body {
     color: white;
 }
 
-#box-container {
-    background-color: #000000;
-    border-radius: 20px;
-    box-shadow: 5px 10px 18px #000000;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: -18%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
-}
-
 #intro {
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    top: 435px;
-    left: 50%;
-    transform: translate(-50%, -50%); 
+ text-align: center;
+ transform: translateY(-550px);
+
 }
 
 img {
     display: block;
-    width: 550px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.5);
+    transform: translateX(-30px);
+    transform: translateY(-310px);
+}
+
+#box-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgb(83, 6, 6);
+    transform: translateY(-550px);
+}
+
+footer {
+    text-align: center;
 }

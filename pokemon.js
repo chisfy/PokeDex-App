@@ -77,7 +77,7 @@ function listOfMoves(stats) {
 
 //function to capitalize the word in the api
 function capitalizeWords(str) {
-  return char.toUpperCase() + char.slice(1).toLowerCase();
+  return str.toUpperCase() + str.slice(1).toLowerCase();
 }
 
 // function capitalize(str) {
