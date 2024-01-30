@@ -43,8 +43,10 @@ What could be improved? <br>
 The search bar function could be improved, at the moment it requires the exact spelling and in the case required. The search bar could improved to not be case-sensitive and allow for misspelling!
 Another feature, perhaps one that allows for comparison between two pokemon so it could become like a game of top trumps!
 CSS styling of course!
-</p> 
+</p>
 
- 
+## 🎥 Demo
+
+<video align="center" src="https://github.com/chisfy/PokeDex-App/assets/137444313/91a08f91-cbc3-470a-b2bf-456e4bc344d2"/>
 
  
